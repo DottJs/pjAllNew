@@ -1,0 +1,25 @@
+{
+  "name": "pjallnew",
+  "version": "1.0.0",
+  "description": "Allnew server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DottJs/pjAllNew.git"
+  },
+  "keywords": [
+    "allnew"
+  ],
+  "author": "AllNew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DottJs/pjAllNew/issues"
+  },
+  "homepage": "https://github.com/DottJs/pjAllNew#readme",
+  "dependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
