@@ -6,11 +6,98 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 li{
     list-style:none
 }
-
+body{
+    font-size: 0;
+}
 
 /* My CSS */
+
+header>div.logoTop{
+    width: 1700px;
+}
+header>div.logoTop>img{
+    width: 100%;
+    height: 80px;
+
+}
+
+/* Nav */
+
+section.navSection>nav{
+    width: 100px;
+    border: 1px solid black;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  
+}
+section.navSection>nav>ul{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+section.navSection>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Contents*/
+
+section.conTentsWapper{
+    margin: 0 0 0 100px;
+    border: 1px solid black;
+    width: 1600px;
+    vertical-align: top;
+    font-size: 0;
+}
+section.conTentsWapper>div.conTents{
+    vertical-align: top;
+    font-size: 0;
+}
+section.conTentsWapper>div.conTents>ul.personReview{
+    text-align: left;
+    background-color: #fff;
+}
+section.conTentsWapper>div.conTents>h1{
+    font-size: 24px;
+    margin: 10px 0 0 100px;
+    padding: 30px 0 10px 0;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li{
+    display: inline-block;
+    width: 380px;
+    margin: 20px 0 0 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li:hover{
+    opacity: 0.8;
+}
+
+section.conTentsWapper>div.conTents>ul.personReview>li>a>div.texter{
+    text-align: left;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li>a>div>img{
+    width: 380px;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li>a>div>p.textTitle{
+    font-size:24px;
+    font-weight: bold;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li>a>div>p.reviewStar{
+    font-size:14px;
+    font-weight: bold;
+}
+section.conTentsWapper>div.conTents>ul.personReview>li>a>div>p.desctiption{
+    font-size:14px;
+    font-weight: bold;
+}
+
